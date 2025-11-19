@@ -19,6 +19,8 @@
       }
     ],
     "paths": {
+      "@/img/*": ["./img/*"],
+      "@/features": ["./components/features"],
       "@/*": ["./*"]
     }
   },
