@@ -6,53 +6,53 @@ import { TbDevicesDollar, TbSettings } from "react-icons/tb";
 import { TfiTarget } from "react-icons/tfi";
 export default function SideBar() {
     return (
-        <aside className='aside'>
-           <div className='aside__container'>
-                <div className='aside__container-logo'>
-                    <a href=""><Image src="/img/Logo.png" fill alt='Logo'/></a>
+        <aside className='bg-[#191919] h-full'>
+           <div className='px-7 py-12'>
+                <div>
+                    <a href=""><Image src="/img/Logo.png" fill alt='Logo' style={{ all: 'unset' }}/></a>
                 </div>
-                <nav className='aside__nav'>
-                    <ul className='aside__nav-list'>
-                        <li className='aside__nav-item'>
+                <nav className='mt-5'>
+                    <ul className='flex flex-col gap-4'>
+                        <li>
+                            <a href="" className='aside__nav-link' >
+                                <span className='aside__nav-icons'><MdGridView/></span>
+                                <span className='text-white/70 font-inter'>Overview</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className='aside__nav-link'> 
+                                <span className='aside__nav-icons'><LuWallet/></span>
+                                <span className='text-white/70 font-inter'>Balances</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className='aside__nav-link'> 
+                                <span className='aside__nav-icons'><GrTransaction/></span>
+                                <span className='text-white/70 font-inter'>Transactions</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className='aside__nav-link'> 
+                                <span className='aside__nav-icons'><TbDevicesDollar/></span>
+                                <span className='text-white/70 font-inter'>Bills</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className='aside__nav-link'> 
+                                <span className='aside__nav-icons'><LuReceipt/></span>
+                                <span className='text-white/70 font-inter'>Expenses</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" className='aside__nav-link'> 
+                                <span className='aside__nav-icons'><TfiTarget/></span>
+                                <span className='text-white/70 font-inter'>Goals</span>
+                            </a>
+                        </li>
+                        <li>
                             <a href="" className='aside__nav-link'>
-                                <span><MdGridView/></span>
-                                <span>Overview</span>
-                            </a>
-                        </li>
-                        <li className='aside__nav-item'>
-                            <a href="" className='aside__nav-link'> 
-                                <span><LuWallet/></span>
-                                <span>Balances</span>
-                            </a>
-                        </li>
-                        <li className='aside__nav-item'>
-                            <a href="" className='aside__nav-link'> 
-                                <span><GrTransaction/></span>
-                                <span>Transactions</span>
-                            </a>
-                        </li>
-                        <li className='aside__nav-item'>
-                            <a href="" className='aside__nav-link'> 
-                                <span><TbDevicesDollar/></span>
-                                <span>Bills</span>
-                            </a>
-                        </li>
-                        <li className='aside__nav-item'>
-                            <a href="" className='aside__nav-link'> 
-                                <span><LuReceipt/></span>
-                                <span>Expenses</span>
-                            </a>
-                        </li>
-                        <li className='aside__nav-item'>
-                            <a href="" className='aside__nav-link'> 
-                                <span><TfiTarget/></span>
-                                <span>Goals</span>
-                            </a>
-                        </li>
-                        <li className='aside__nav-item'>
-                            <a href="" className='aside__nav-link'>
-                                <span><TbSettings/></span>
-                                <span>Settings</span>
+                                <span  className='aside__nav-icons'><TbSettings/></span>
+                                <span className='text-white/70 font-inter'>Settings</span>
                             </a>
                         </li>
                     </ul>

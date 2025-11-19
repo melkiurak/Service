@@ -1,2 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
 @import "tailwindcss";
 
+@theme{
+    --font-inter: 'Inter',  sans-serif;
+}
+
+
+body,html{
+    height: 100%;
+}
+.aside__nav-link{
+    @apply flex items-center gap-3;
+}
+.aside__nav-icons{
+ @apply text-2xl text-white/70;
+}
