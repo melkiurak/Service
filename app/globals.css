@@ -9,6 +9,10 @@
 body,html{
     height: 100%;
 }
+
+h1{
+    @apply font-inter font-bold text-2xl leading-6;
+}
 .aside__nav-link{
     @apply flex items-center gap-3;
 }
