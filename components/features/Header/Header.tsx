@@ -4,7 +4,7 @@ import { CiSearch } from "react-icons/ci";
 export default function Header() {
     const date = new Date();
     return (
-        <header className="flex justify-between items-center h-[88px]">
+        <header className="flex justify-between items-center h-[88px] border-b border-gray-300">
             <div className="flex items-center gap-6 px-6">
                 <h1>Hello</h1>
                 <span className="text-[#9F9F9F] flex items-center leading-5">  

@@ -19,7 +19,7 @@
       }
     ],
     "paths": {
-      "@/img/*": ["./img/*"],
+      "@/img/*": ["./public/img/*"],
       "@/features": ["./components/features"],
       "@/*": ["./*"]
     }
